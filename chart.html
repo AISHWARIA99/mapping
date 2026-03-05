@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Philosophical Approaches</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        /* Main Header Box */
+        .main-title {
+            background-color: #a31d3d;
+            color: white;
+            padding: 15px 40px;
+            display: inline-block;
+            font-weight: bold;
+            border-radius: 4px;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+        }
+
+        /* Branching Layout */
+        .branches {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+        }
+
+        /* Nastika and Astika Ovals */
+        .category {
+            color: white;
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            min-width: 120px;
+            text-transform: uppercase;
+        }
+
+        .nastika { background-color: #0d2a54; }
+        .astika { background-color: #6a1b4d; }
+
+        /* Schools Grid */
+        .schools-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .school-box {
+            background-color: #a31d3d;
+            color: white;
+            padding: 10px 15px;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 2px;
+            min-width: 100px;
+        }
+
+        /* Connector Lines */
+        .line {
+            width: 2px;
+            height: 30px;
+            background-color: #a31d3d;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="main-title">Indian Philosophical Approaches</div>
+    
+    <div class="branches">
+        
+        <div class="column">
+            <div class="line"></div>
+            <div class="category nastika">Nastika</div>
+            <div class="line"></div>
+            <div class="schools-row">
+                <div class="school-box">Buddhism</div>
+                <div class="school-box">Jainism</div>
+                <div class="school-box">Charvaka</div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="line"></div>
+            <div class="category astika">Astika</div>
+            <div class="line"></div>
+            <div class="schools-row">
+                <div class="school-box">Mimamsa</div>
+                <div class="school-box">Nyaya</div>
+                <div class="school-box">Vaisheshika</div>
+                <div class="school-box">Samkhya</div>
+                <div class="school-box">Yoga</div>
+                <div class="school-box">Vedanta</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
